@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+    private String mPHONE = "tel:08044112233";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
             mContactNow.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "08044112233"));
+                    Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse(mPHONE));
                     startActivity(intent);
                 }
             });
