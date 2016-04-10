@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="businessname">Pizza Corner</string>
+    <string name="coverphotodesc">Pizza Corner Logo</string>
+    <string name="businessdescription">Pizza Corner restaurants or combined with other Global Franchise Architects brands such as Coffee World or Cream and Fudge. Its service formats include: large dine-in restaurants, delivery outlets, express dine-ins, and express kiosks</string>
+    <string name="businessaddress">Vishal De Mall,\nChokkikulam,\nMadurai,\nTamil Nadu-625002</string>
+    <string name="address">Business Address</string>
+    <string name="contactnow">Contact Now</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="firstapp.shivasurya.com.MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/pizza"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/coverphotodesc"
+        android:id="@+id/coverphoto"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/businessname"
+        android:text="@string/businessname"
+        android:textSize="@dimen/activity_textview_business_name"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/coverphoto" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/businessname"
+        android:id="@+id/businessdescription"
+        android:text="@string/businessdescription"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="12sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/businessdescription"
+        android:id="@+id/address"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/businessaddress"
+        android:layout_below="@+id/address"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/businessaddress"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contactnow"
+        android:layout_below="@+id/businessaddress"
+        android:layout_margin="20dp"
+        android:id="@+id/contactnow"
+         />
+</RelativeLayout>
+</ScrollView>
